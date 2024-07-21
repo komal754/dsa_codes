@@ -1,0 +1,481 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'p'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'p' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'p' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'p1'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 2,
+                  "endLine": 22,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'p1' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'p1' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'p2'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'p2' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'p2' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/kr861/source/repos/struct.c/struct.c/struct.c.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6206a212b72f8f0a14e1c9c83827a29dc364f66992e0c0c67f6eb2969055efa1"
+          }
+        }
+      ]
+    }
+  ]
+}

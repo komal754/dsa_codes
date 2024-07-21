@@ -1,0 +1,4 @@
+﻿  MYFIRSTPROJECT1.cpp
+C:\Users\kr861\source\repos\MYFIRSTPROJECT1\MYFIRSTPROJECT1\MYFIRSTPROJECT1.cpp(12,21): error C2563: mismatch in formal parameter list
+C:\Users\kr861\source\repos\MYFIRSTPROJECT1\MYFIRSTPROJECT1\MYFIRSTPROJECT1.cpp(13,18): error C2001: newline in constant
+C:\Users\kr861\source\repos\MYFIRSTPROJECT1\MYFIRSTPROJECT1\MYFIRSTPROJECT1.cpp(14,1): error C2143: syntax error: missing ';' before '}'

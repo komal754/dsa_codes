@@ -1,0 +1,36 @@
+﻿  preorder.c.cpp
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(15,5): error C2065: 'sruct': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(15,11): error C2146: syntax error: missing ';' before identifier 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(17,15): error C2065: 'data': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(18,15): error C2065: 'Null': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(23,21): error C2332: 'struct': missing tag name
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(24,9): error C2065: 'root': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(25,22): error C2065: 'root': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(25,16): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(25,16): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(25,16): message : the missing variadic argument 1 is required by format string '%d'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(26,18): error C2065: 'root': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(27,18): error C2065: 'root': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(36,22): error C2065: 'create': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(36,29): error C2146: syntax error: missing ';' before identifier 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(36,33): error C2440: '<function-style-cast>': cannot convert from 'int' to 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(36,33): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(37,23): error C2065: 'create': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(37,30): error C2146: syntax error: missing ';' before identifier 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(37,34): error C2440: '<function-style-cast>': cannot convert from 'int' to 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(37,34): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(38,23): error C2065: 'create': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(38,30): error C2146: syntax error: missing ';' before identifier 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(38,34): error C2440: '<function-style-cast>': cannot convert from 'int' to 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(38,34): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(39,23): error C2065: 'create': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(39,30): error C2146: syntax error: missing ';' before identifier 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(39,34): error C2440: '<function-style-cast>': cannot convert from 'int' to 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(39,34): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(40,23): error C2065: 'create': undeclared identifier
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(40,30): error C2146: syntax error: missing ';' before identifier 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(40,34): error C2440: '<function-style-cast>': cannot convert from 'int' to 'node'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(40,34): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(48,15): error C2664: 'void preOrder(*)': cannot convert argument 1 from 'node *' to '*'
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(48,14): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\kr861\source\repos\preorder.c\preorder.c\preorder.c.cpp(23,6): message : see declaration of 'preOrder'

@@ -1,0 +1,10 @@
+﻿  NAKE.cpp
+C:\Users\kr861\source\repos\NAKE\NAKE\NAKE.cpp(9,34): error C2664: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Alloc &)': cannot convert argument 1 from 'std::istream' to 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\kr861\source\repos\NAKE\NAKE\NAKE.cpp(9,34): message : Reason: cannot convert from 'std::istream' to 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\kr861\source\repos\NAKE\NAKE\NAKE.cpp(9,26): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xstring(2475,5): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'
+C:\Users\kr861\source\repos\NAKE\NAKE\NAKE.cpp(11,5): error C2064: term does not evaluate to a function taking 2 arguments

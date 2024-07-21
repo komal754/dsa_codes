@@ -1,0 +1,2 @@
+﻿  function.cpp
+LINK : fatal error LNK1168: cannot open C:\Users\kr861\source\repos\function\x64\Debug\function.exe for writing

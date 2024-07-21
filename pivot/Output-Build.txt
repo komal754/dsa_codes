@@ -1,0 +1,8 @@
+﻿Build started...
+1>------ Build started: Project: pivot, Configuration: Debug x64 ------
+1>pivot.cpp
+1>c:\Users\kr861\source\repos\pivot\pivot\pivot.cpp(46): warning C4715: 'binarySearch': not all control paths return a value
+1>pivot.vcxproj -> c:\Users\kr861\source\repos\pivot\x64\Debug\pivot.exe
+1>Done building project "pivot.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 23:00 and took 00.631 seconds ==========

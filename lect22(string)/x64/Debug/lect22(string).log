@@ -1,0 +1,3 @@
+﻿  lect22(string).cpp
+E:\crt\dsa\lect22(string)\lect22(string).cpp(23): warning C4715: 'toLowercase': not all control paths return a value
+  lect22(string).vcxproj -> E:\crt\dsa\lect22(string)\x64\Debug\lect22(string).exe

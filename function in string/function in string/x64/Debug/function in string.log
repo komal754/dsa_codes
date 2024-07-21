@@ -1,0 +1,2 @@
+﻿  function in string.cpp
+C:\Users\kr861\source\repos\function in string\function in string\function in string.cpp(11): error C4700: uninitialized local variable 's' used

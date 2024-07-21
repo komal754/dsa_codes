@@ -1,0 +1,3 @@
+﻿  MYFIRSTPROJECT1.cpp
+C:\Users\kr861\source\repos\MYFIRSTPROJECT1\MYFIRSTPROJECT1\MYFIRSTPROJECT1.cpp(12,21): error C2563: mismatch in formal parameter list
+C:\Users\kr861\source\repos\MYFIRSTPROJECT1\MYFIRSTPROJECT1\MYFIRSTPROJECT1.cpp(12,24): error C2065: 'endl': undeclared identifier

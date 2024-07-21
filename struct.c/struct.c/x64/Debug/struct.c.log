@@ -1,0 +1,4 @@
+﻿  struct.c.cpp
+C:\Users\kr861\source\repos\struct.c\struct.c\struct.c.cpp(22,22): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\kr861\source\repos\struct.c\struct.c\struct.c.cpp(26): warning C4717: 'peOrder': recursive on all control paths, function will cause runtime stack overflow
+  struct.c.vcxproj -> C:\Users\kr861\source\repos\struct.c\x64\Debug\struct.c.exe

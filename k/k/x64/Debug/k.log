@@ -1,0 +1,3 @@
+﻿  k.cpp
+C:\Users\kr861\source\repos\k\k\k.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\kr861\source\repos\k\k\k.cpp(9,5): error C3861: 'fun': identifier not found

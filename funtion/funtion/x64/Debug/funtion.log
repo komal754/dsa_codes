@@ -1,0 +1,4 @@
+﻿  funtion.cpp
+C:\Users\kr861\source\repos\funtion\funtion\funtion.cpp(37,6): error C2601: 'main': local function definitions are illegal
+C:\Users\kr861\source\repos\funtion\funtion\funtion.cpp(30,21): message : this line contains a '{' which has not yet been matched
+C:\Users\kr861\source\repos\funtion\funtion\funtion.cpp(30,21): fatal  error C1075: '{': no matching token found
