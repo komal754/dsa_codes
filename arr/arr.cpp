@@ -1,6 +1,7 @@
 // lecture23.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
 #include <iostream>
+#define INT_MIN;
 using namespace std;
 
 void rowSum(int arr[][4], int row, int column) {

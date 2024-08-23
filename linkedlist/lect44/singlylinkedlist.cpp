@@ -25,7 +25,7 @@ public:
             this->next = NULL;
         }
         cout << "memory free up for node with data " << value << endl;
-    }
+        }
 };
 //& used bcz we dont wNT TO MAKE COPY
 
@@ -52,7 +52,7 @@ void insertAtPosition(Node *&tail, Node *&head, int position, int d)
     Node *temp = head;
 
     // insertion at start node
-    if (position == 1)
+    if (position==1)
     {
         InsertnodeatHead(head, d);
         return;

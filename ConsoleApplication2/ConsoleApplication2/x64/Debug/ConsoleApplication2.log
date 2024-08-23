@@ -1,4 +1,0 @@
-﻿  ConsoleApplication2.cpp
-C:\Users\kr861\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(13,17): error C2065: 'str': undeclared identifier
-C:\Users\kr861\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(13,5): error C3861: 'getline': identifier not found
-C:\Users\kr861\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(15,25): error C2065: 'str': undeclared identifier

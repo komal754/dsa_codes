@@ -79,4 +79,37 @@ int main()
     {
         cout << arr[i] << " ";
     }
-} 
+}
+
+
+
+//alternate
+// int n=nums.size();
+// if(k>n){
+//     k = k%n;
+// }
+// vector<int>temp(n);
+// for(int i=0;i<n;i++){
+// temp[i]=nums[(n-k+i)%n];
+// }
+// nums=temp;
+
+
+
+//using reverse function 
+void reversal(vector<int> &nums,int s,int e ){
+    while(s<e){
+     int temp=nums[s];
+     nums[s]=nums[e];
+     nums[e]=temp;
+     s++;
+     e--;
+    }
+}
+    void rotate(vector<int>& nums, int k) {
+k=k%nums.size();
+        reversal(nums,0,nums.size()-1);
+        reversal(nums,0,k-1);
+        reversal(nums,k,nums.size()-1);
+
+    }

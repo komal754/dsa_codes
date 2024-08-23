@@ -25,7 +25,6 @@ void deleteNode(Node* node) {
     // Point the current node's next to the next node's next.
     Node* temp = node->next;
     node->next = node->next->next;
-
     // Free the memory of the next node.
     delete temp;
 }
