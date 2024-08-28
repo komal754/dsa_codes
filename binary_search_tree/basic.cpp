@@ -36,6 +36,23 @@ Node *insertIntoBst(Node *&root, int d)
     return root;
 }
 
+bool searchInBST(Node *root, int x) {
+  // Write your code here.
+  if (root == NULL) {
+    return false;
+  }
+
+  if (root->data == x) {
+    return true;
+  }
+
+  if (root->data > x) {
+    searchInBST(root->left, x);
+  } 
+  else {
+    searchInBST(root->right,x);
+  }
+}
 
 void levelorderTraversal(Node *root)
 {
@@ -94,5 +111,12 @@ int main()
 
         cout << "Printing the BST: -> " << endl;
     levelorderTraversal(root);
+
+    if(searchInBST(root,6)){
+        cout<<"element found"<<endl;
+    }
+    else{
+        cout<<"not found"<<endl;
+    }
     return 0;
 }
