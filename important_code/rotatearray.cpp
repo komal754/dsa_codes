@@ -1,34 +1,34 @@
-/* #include<iostream>
-#include<algorithm> */
-// using namespace std;
+ #include<iostream>
+ #include<algorithm> 
+ using namespace std;
 
 // 
 // 
 // 
 // ........................................ROTATE BY ONE.....................................................
-/* void rotate(int* a, int n) {
+//  void rotate(int* a, int n) {
 
-   int temp = a[0];
-   for (int i = 1; i < n; i++) {
-       swap(a[i], a[i - 1]);
-   }
-   a[n - 1] = temp;
+//    int temp = a[0];
+//    for (int i = 1; i < n; i++) {
+//        swap(a[i], a[i - 1]);
+//    }
+//    a[n - 1] = temp;
 
-}                                         //12345
-int main() {
+// }                                         //12345
+// int main() {
 
-   int n;
-   cin >> n;
-   int arr[n];
-   for (int i = 0; i < n; i++) {
-       cin >> arr[i];
-   }
-   rotate(arr, n);
-   for (int i = 0; i < n; i++) {
-       cout << arr[i];
-   }
-}
- */
+//    int n;
+//    cin >> n;
+//    int arr[n];
+//    for (int i = 0; i < n; i++) {
+//        cin >> arr[i];
+//    }
+//    rotate(arr, n);
+//    for (int i = 0; i < n; i++) {
+//        cout << arr[i];
+//    }
+// }
+ 
 
 
 ////--------------------------------ROTATE BY K  POSITION------------------------------------------------------//
@@ -86,9 +86,9 @@ int main() {
 using namespace std;
 
 
-void reverse(vector<int>&arr, int k, int n)
+void reverse(vector<int>&arr, int s , int n)
 {
-    int l = k;
+    int l = s;
     int h = n - 1;
     int temp;
 
@@ -102,17 +102,33 @@ void reverse(vector<int>&arr, int k, int n)
 }
 int main() {
     int n;
+    cout<<"enter the size of array:"<<endl;
     cin >> n;
-    vector<int>arr;
+    vector<int>arr(n);
+    cout<<"enter the value of k:"<<endl;
+
     int k;
     cin >> k;
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
+
     reverse(arr, 0, k);
     reverse(arr, k, n);
     reverse(arr, 0, n);
+
+    cout<<"after the rotating left by"<<k<<" position: "<<endl;
     for (int i = 0; i < n; i++) {
-        cout << arr[i];
+        cout << arr[i]<<" ";
+    }
+    cout<<endl;
+    reverse(arr, 0, n);
+
+    reverse(arr, 0, k);
+    reverse(arr, k, n);
+
+    cout<<"after the rotating right by"<<k<<" position: "<<endl;
+    for (int i = 0; i < n; i++) {
+        cout << arr[i]<<" ";
     }
 }   
