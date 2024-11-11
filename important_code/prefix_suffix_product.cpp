@@ -25,7 +25,7 @@ vector<int> productExceptSelf(vector<int>& nums) {
 }
 
 int main() {
-    vector<int> nums = {1, 2, 3, 4}; // example input
+    vector<int> nums = {4,1,3,6,7,9}; // example input
     vector<int> result = productExceptSelf(nums);
     
     cout << "Product of all numbers except self: ";

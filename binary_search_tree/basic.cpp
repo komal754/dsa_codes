@@ -1,5 +1,5 @@
 #include <iostream>
-#include<queue>
+#include <queue>
 using namespace std;
 
 class Node
@@ -25,33 +25,39 @@ Node *insertIntoBst(Node *&root, int d)
         return root;
     }
 
-    if(d>root->data){
-        //right part me insert
-        root->right=insertIntoBst(root->right,d);
+    if (d > root->data)
+    {
+        // right part me insert
+        root->right = insertIntoBst(root->right, d);
     }
-    else{
-        root->left=insertIntoBst(root->left,d);
-
+    else
+    {
+        root->left = insertIntoBst(root->left, d);
     }
     return root;
 }
 
-bool searchInBST(Node *root, int x) {
-  // Write your code here.
-  if (root == NULL) {
-    return false;
-  }
+bool searchInBST(Node *root, int x)
+{
+    // Write your code here.
+    if (root == NULL)
+    {
+        return false;
+    }
 
-  if (root->data == x) {
-    return true;
-  }
+    if (root->data == x)
+    {
+        return true;
+    }
 
-  if (root->data > x) {
-    searchInBST(root->left, x);
-  } 
-  else {
-    searchInBST(root->right,x);
-  }
+    if (root->data > x)
+    {
+        searchInBST(root->left, x);
+    }
+    else
+    {
+        searchInBST(root->right, x);
+    }
 }
 
 void levelorderTraversal(Node *root)
@@ -102,21 +108,49 @@ int takeInput(Node *&root)
         cin >> data;
     }
 }
+Node *minvalue(Node *root)
+{
+    Node *temp = root;
 
+    while (temp != NULL && temp->left != NULL)
+    {
+        temp = temp->left;
+    }
+    return temp;
+}
+
+Node *maxvalue(Node *root)
+{
+    Node *temp = root;
+
+    while (temp != NULL && temp->right != NULL)
+    {
+        temp = temp->right;
+    }
+    return temp;
+}
 int main()
 {
     Node *root = NULL;
     cout << "enter the data of BST: -> " << endl;
     takeInput(root);
 
-        cout << "Printing the BST: -> " << endl;
+    cout << "Printing the BST: -> " << endl;
     levelorderTraversal(root);
 
-    if(searchInBST(root,6)){
-        cout<<"element found"<<endl;
+    if (searchInBST(root, 6))
+    {
+        cout << "element found" << endl;
     }
-    else{
-        cout<<"not found"<<endl;
+    else
+    {
+        cout << "not found" << endl;
     }
+    cout << endl;
+    cout << "minimum value:  " << minvalue(root)->data << endl;
+    cout << "maximum value:  " << maxvalue(root)->data;
     return 0;
 }
+
+
+

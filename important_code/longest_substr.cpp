@@ -3,13 +3,15 @@
 #include<bits/stdc++.h>
 #include<string>
 #include<unordered_map>
+using namespace std;
 
-    int lengthOfLongestSubstring(string s) {
-        // string substr = "";
+    
+
+    int lengthOfLongestSubstring(std::string s) {
         int count = 0;
         int maxi = 0;
         int start = 0;
-       unordered_map<char, int> mp;
+       std::unordered_map<char, int> mp;
         for (int i = 0; i < s.size(); i++) {
             mp[s[i]]++;
             count++;

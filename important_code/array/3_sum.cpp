@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void input(vector<int>& arr, int n)
+void input(vector<int> &arr, int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -11,7 +11,7 @@ void input(vector<int>& arr, int n)
     }
 }
 
-void print(const vector<int>& arr, int n)
+void print(const vector<int> &arr, int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -21,6 +21,8 @@ void print(const vector<int>& arr, int n)
 
 vector<vector<int>> threeSum(vector<int> arr, int n, int K)
 {
+
+    //sorting
     for (int i = 0; i < n - 1; i++)
     {
         for (int j = 0; j < n  - 1; j++)
@@ -37,6 +39,7 @@ vector<vector<int>> threeSum(vector<int> arr, int n, int K)
     vector<vector<int>> ans;
     for (int i = 0; i < n; i++)
     {
+        //skips the duplicate as it will produce same pair
         if (i > 0 && arr[i] == arr[i - 1])
         {
             continue;
@@ -73,6 +76,8 @@ vector<vector<int>> threeSum(vector<int> arr, int n, int K)
     return ans;
 }
 
+
+
 int main()
 {
     int n, k;
@@ -85,7 +90,7 @@ int main()
     vector<vector<int>> result;
     result = threeSum(arr, n, k);
     cout << "Triplets that sum up to " << k << ":" << endl;
-    for (const auto& triplet : result)
+    for (const auto &triplet : result)
     {
         print(triplet, 3);
         cout << endl;

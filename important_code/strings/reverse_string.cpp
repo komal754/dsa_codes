@@ -32,4 +32,3 @@ rev_str=rev_str + str[i];
 }
 cout<<"reversed string is "<<rev_str;
 }
-// using stack
