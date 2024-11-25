@@ -20,6 +20,7 @@ void solve(const vector<int>& nums, vector<int>& output, int index, vector<vecto
 }
 
 int main() {
+    
     vector<int> nums = {1, 2, 3};
     int index = 0;
     vector<int> output;

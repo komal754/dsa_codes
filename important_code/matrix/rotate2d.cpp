@@ -35,7 +35,7 @@
 //         }
 //      }
 //         for(int i=0;i<col;i++){
-// //reverses elements of i row
+// //reverses elements of i column
 //             reverse(matrix.begin(),matrix.end());
 //         }
 
